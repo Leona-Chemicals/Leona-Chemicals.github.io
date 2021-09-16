@@ -208,3 +208,7 @@ products = [
 "TRIMETHYL ORTHOFORMATE",
 "TRIPHOSGENE",
 ]
+
+export function getProducts () {
+    return products;
+}

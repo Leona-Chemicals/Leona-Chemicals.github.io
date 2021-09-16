@@ -94,40 +94,11 @@
             <div id='services' class="content-section-heading">
                 <h2 class="mb-5">Products</h2>
             </div>
-            <div class="row">
-              <img style="padding: 10px" src="images/product_list_1.png">
-              
-              <img style="padding: 10px" src="images/product_list_2.png">
-            </div>
-            <br><br>
             <div>
-              <button class="btn btn-outline-light btn-xl" data-toggle="modal" data-target="#myModal">
-                DOWNLOAD PRODUCT LISTS
-              </button>
-            </div>
-
-            
-            <div class="modal fade" id="myModal">
-              <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                
-                  <!-- Modal Header -->
-                  <div class="modal-header">
-                    <h4 class="modal-title text-dark">Products</h4>
-                    <button type="button" class="btn btn-outline-dark close" data-dismiss="modal">
-                      &times;
-                    </button>
-                  </div>
-                  
-                  <!-- Modal body -->
-                  <div class="modal-body">
-                    <div class="row px-3">
-                      <a class="btn mb-3 btn-outline-dark" target="_blank" href="res/product_list_1.pdf">Product List 1</a>
-                      <a class="btn mb-3 btn-outline-dark" target="_blank" href="res/product_list_2.pdf">Product List 2</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <script>
+                var products = getProducts;
+                console.log(products);
+              </script>
             </div>
         </div>
     </section>
@@ -242,6 +213,7 @@
   <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="lib/scripts.js"></script>
   <script src="lib/lottie-player.js"></script>
+  <script type="module" src="./products.js"></script>
 
   </body>
 
