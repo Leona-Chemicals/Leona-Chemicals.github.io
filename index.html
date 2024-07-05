@@ -47,6 +47,21 @@
         color: #1f1f1f;
         transition: 0.4s;
       }
+      .hoverEffect {
+        transition-duration: 1200ms;
+        background: rgb(236, 204, 70);
+        background: linear-gradient(
+          90deg,
+          rgb(197, 162, 22) 14%,
+          rgb(95, 112, 209) 90%
+        );
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .hoverEffect:hover {
+        font-size: larger;
+        transition-duration: 400ms;
+      }
       @font-face {
         font-family: algerian;
         src: url(fonts/algerian.ttf);
@@ -84,7 +99,7 @@
           style="height: 200px; width: auto"
         />
         <h1 class="mb-1 p-3" style="font-family: algerian; font-weight: 500">
-          Leona Chemicals
+          <span class="hoverEffect">Leona Chemicals</span>
         </h1>
         <h4 class="mb-5 text-muted">
           <em>Indenting Company & Sourcing Agent</em>
@@ -125,7 +140,11 @@
               <img
                 class="animate__animated animate__swing rounded"
                 src="images/flask.gif"
-                style="width: 420px; box-shadow: 0px 0px 30px 5px #00000099"
+                style="
+                  width: 420px;
+                  max-width: 100%;
+                  box-shadow: 0px 0px 30px 5px #00000099;
+                "
               />
             </div>
             <div>
@@ -264,8 +283,7 @@
               and basic industry knowledge.
               <br />Send us an email at
               <a
-                class="a_dark h2 font-monospace"
-                style="font-size: xx-large"
+                class="h2 font-monospace"
                 href="mailto:leonachemicals@gmail.com"
                 >leonachemicals@gmail.com</a
               >
@@ -276,7 +294,7 @@
               src="images/team_lottie.json"
               background="transparent"
               speed="1"
-              style="width: auto"
+              style="width: auto; max-width: 400px"
               loop
               autoplay
             ></lottie-player>
