@@ -32,6 +32,16 @@
     <link href="lib/styles.css" rel="stylesheet" />
 
     <style>
+      ::-moz-selection {
+        /* Code for Firefox */
+        color: rgb(65, 58, 141);
+        background: rgba(53, 53, 53, 0.408);
+      }
+
+      ::selection {
+        color: rgb(65, 58, 141);
+        background: rgba(53, 53, 53, 0.408);
+      }
       .btn-primary {
         background-color: rgb(130, 144, 226);
       }
@@ -334,7 +344,7 @@
 
     <!-- Scroll to Top Button-->
     <a class="scroll-to-top rounded" href="#page-top"
-      ><i class="fas fa-angle-up" style="height: 50px;"></i
+      ><i class="fas fa-angle-up" style="height: 50px"></i
     ></a>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
