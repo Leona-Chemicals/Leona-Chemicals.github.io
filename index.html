@@ -1,22 +1,31 @@
 <!DOCTYPE html>
 
 <html lang="en">
-
   <head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="leonachemicals" name="keywords">    
-    <meta name="theme-color" content="#f3f3f3">
-    <meta name="apple-mobile-web-app-status-bar-style" content="#f3f3f3">
-    <meta name="description" content="Indenting company & sourcing agent.">
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="leonachemicals" name="keywords" />
+    <meta name="theme-color" content="#f3f3f3" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#f3f3f3" />
+    <meta name="description" content="Indenting company & sourcing agent." />
     <title>Leona Chemicals</title>
 
-    <link rel="icon" href="images/logo.png" type="image/x-icon">
+    <link rel="icon" href="images/logo.png" type="image/x-icon" />
 
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="lib/styles.css" rel="stylesheet" />
 
     <style>
@@ -40,189 +49,279 @@
       }
       @font-face {
         font-family: algerian;
-          src: url(fonts/algerian.ttf);
+        src: url(fonts/algerian.ttf);
       }
     </style>
-  
   </head>
 
-  <body class="animate__animated animate__fadeIn" style="transition: 1s">
+  <body
+    onload="populateTable()"
+    class="animate__animated animate__fadeIn"
+    style="transition: 1s"
+  >
     <!-- Navigation-->
     <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
     <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <li class="sidebar-brand"><a href="https://leona-chemicals.github.io/">Leona Chemicals</a></li>
-            <li class="sidebar-nav-item menu-active"><a href="#page-top">Home</a></li>
-            <li class="sidebar-nav-item"><a href="#about">About</a></li>
-            <li class="sidebar-nav-item"><a href="#services">What We Offer</a></li>
-            <li class="sidebar-nav-item"><a href="#contact">Contact</a></li>
-            <li class="sidebar-nav-item"><a href="#careers">Careers</a></li>
-        </ul>
+      <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+          <a href="https://leona-chemicals.github.io/">Leona Chemicals</a>
+        </li>
+        <li class="sidebar-nav-item menu-active">
+          <a href="#page-top">Home</a>
+        </li>
+        <li class="sidebar-nav-item"><a href="#about">About</a></li>
+        <li class="sidebar-nav-item"><a href="#products">Products</a></li>
+        <li class="sidebar-nav-item"><a href="#contact">Contact</a></li>
+        <li class="sidebar-nav-item"><a href="#careers">Careers</a></li>
+      </ul>
     </nav>
     <!-- Header-->
     <header id="page-top" class="masthead bg-light d-flex align-items-center">
-        <div class="container px-4 px-lg-5 text-center">
-          <img class="animate__animated animate__pulse rounded-circle" src="images/logo.png" style="height:200px;width:auto">
-            <h1 class="mb-1 p-3" style="font-family: algerian; font-weight: 500">Leona Chemicals</h1>
-            <h4 class="mb-5 text-muted"><em>Indenting Company & Sourcing Agent</em></h4>
-            <a class="btn btn-primary btn-xl" href="#about">FIND OUT MORE</a>
-        </div>
+      <div class="container px-4 px-lg-5 text-center">
+        <img
+          class="animate__animated animate__pulse rounded-circle"
+          src="images/logo.png"
+          style="height: 200px; width: auto"
+        />
+        <h1 class="mb-1 p-3" style="font-family: algerian; font-weight: 500">
+          Leona Chemicals
+        </h1>
+        <h4 class="mb-5 text-muted">
+          <em>Indenting Company & Sourcing Agent</em>
+        </h4>
+        <a class="btn btn-primary btn-xl" href="#about">FIND OUT MORE</a>
+      </div>
     </header>
 
     <!-- About-->
-    <section class="content-section bg-dark text-light" id="about">
-      <div class="container px-4 px-lg-5 text-center">
-          <div class="row gx-4 gx-lg-5 justify-content-center">
-            <div class="content-section-heading">
-              <h2 class="mb-5">About Us</h2>
+    <section class="content-section" id="about">
+      <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-left">
+          <div class="content-section-heading">
+            <h2 class="">About Us</h2>
+          </div>
+          <div class="row justify-content-left p-3">
+            <div class="p-3 col-sm">
+              <br />
+              <p class="" style="font-size: x-large">
+                Leona Chemicals is a professionally managed family-owned
+                concern.
+                <br />
+                <br />
+                A leaf from our book is the Sourcing Activities. <br />
+                We source
+                <b>
+                  fine chemicals, specialty chemicals, solvents and
+                  intermediates </b
+                >, for end-use in the entire spectrum of manufacturing,
+                including
+                <b
+                  >petrochemicals, pharmaceuticals, cosmetics, paints &
+                  coatings, and related industries</b
+                >.
+              </p>
             </div>
-            <div class="row justify-content-center p-3">
-              <div class="col-sm p-3">
-                <br>
-                <p class="h4">
-                  We're here to take care of your requirements for raw materials, fine chemicals, intermediates for Pharma, Agro, Dyestuff, Paint, Aromatic & Cosmetic Industries.
-                  <br><br>
-                  We handle the entire hassle for your procurement.
-                </p><br>
-              </div>
-              <div class="col-sm p-3">
-                <img class="animate__animated animate__swing rounded" src="images/flask.gif" style="width: 300px; box-shadow: 0px 0px 30px 1px #00000099">
-              </div>
+            <div class="col-sm p-3 text-center">
+              <img
+                class="animate__animated animate__swing rounded"
+                src="images/flask.gif"
+                style="width: 420px; box-shadow: 0px 0px 30px 5px #00000099"
+              />
             </div>
-            <div class="container p-3">
-              <a class="btn btn-outline-light btn-xl" href="#services">WHAT WE OFFER</a>
+            <div>
+              <p style="font-size: x-large">
+                All products come from our
+                <b
+                  >strong, reliable, technologically sound overseas
+                  principals</b
+                >, <br />backed by our
+                <b>prompt, efficient and courteous services</b>. <br />Quality
+                is our major concern and we have been putting extra efforts in
+                maintaining this objective.
+                <br />
+                <br />
+                While acting as <b>marketing agent for overseas suppliers</b>,
+                we at Leona Chemicals are also engaged in rendering services to
+                overseas companies for their
+                <b
+                  >procurement of intermediates and herbal extracts from Indian
+                  producers</b
+                >.
+              </p>
+              <br />
             </div>
           </div>
+          <div class="container p-3 text-center">
+            <a class="btn btn-outline-dark btn-xl" href="#products"
+              >WHAT WE OFFER</a
+            >
+          </div>
+        </div>
       </div>
     </section>
 
     <!-- Services-->
-    <section id='services' class="content-section bg-light text-center">
-        <div class="container px-4 px-lg-5">
-            <div class="content-section-heading">
-                <h2 class="mb-5">Products</h2>
-            </div>
-            <p class="h4 mb-5">
-            View our complete list of products...
-            </p>
-            <a href="./products.html">
-              <button class="btn btn-outline-dark btn-lg">
-                Go to Products Page
-              </button>
-            </a>
-        </div>
-    </section>
-    
-    <!-- Contact -->
-    <section id="contact" class="content-section bg-dark text-light">
-        <div class="container px-4 px-lg-5 text-center">
+    <section id="products" class="content-section bg-light">
+      <div class="container text-center main">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
           <div class="content-section-heading">
-            <h2 class="mb-5">Contact Us</h2>
+            <h1 class="row mb-5">Here's a list of the products we offer...</h1>
           </div>
-          <div class="row justify-content-between align-items-center">
-            <div class="col-sm pt-5">
-                <p class="mb-2 lead">
-                  For your import requirements or in case of any further queries, kindly email us at
-                  <br>
-                  <a class="h4 font-monospace" href="mailto:sales@leonachemicals.com">sales@leonachemicals.com</a>
-                </p>
-                <br>
-                <p class="mb-2 lead">
-                  or call us at
-                  <br>
-                  <a class="h4 font-monospace" href="tel:+91 9930336966">
-                    +91 9930336966
-                  </a>
-                  <br>
-                  <a class="h4 font-monospace" href="tel:+91 9137794481">
-                    +91 9137794481
-                  </a>
-                </p>
-            </div>
-            <div class="col-sm row justify-content-center">
-              <img src="images/Customer Support.svg" style="width:350px">
-            </div>
+          <div class="container input-group mb-5">
+            <input
+              type="text"
+              class="form-control"
+              id="myInput"
+              id="filter"
+              onkeyup="filterProducts()"
+              placeholder="Search for products..."
+            />
+            <div class="input-group-append" id="clear_div"></div>
           </div>
-          <br>
-          <div class="container text-center">
-            <div class="content-section-heading">
-              <h4 class="mb-4 text-light">Business Hours</h4>
-            </div>
-            <div class="container">
-            <table class="table table-hover table-striped table-light table-bordered table-responsive">
-              <thead><th scope="col">Day</th><th scope="col">Time</th></tr></thead>
-              <tbody>
-                <tr><td>Monday</td><td>10:00 AM - 06:00 PM</td></tr>
-                <tr><td>Tuesday</td><td>10:00 AM - 06:00 PM</td></tr>
-                <tr><td>Wednesday</td><td>10:00 AM - 06:00 PM</td></tr>
-                <tr><td>Thursday</td><td>10:00 AM - 06:00 PM</td></tr>
-                <tr><td>Friday</td><td>10:00 AM - 06:00 PM</td></tr>
-                <tr><td>Saturday</td><td>10:00 AM - 02:00 PM</td></tr>
-                <tr><td>Sunday</td><td>Closed</td></tr>            
-              </tbody>
+
+          <div class="row">
+            <table
+              style="
+                -webkit-user-select: none;
+                -khtml-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                -o-user-select: none;
+                user-select: none;
+              "
+              class="table table-responsive-sm table-light table-hover table-bordered"
+              id="products_table"
+            >
+              <tbody id="products_body"></tbody>
             </table>
           </div>
+          <div id="result_div"></div>
         </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="content-section">
+      <div class="container px-4 px-lg-5">
+        <div class="content-section-heading">
+          <h2 class="">Contact Us</h2>
         </div>
+        <br />
+
+        <div class="row justify-content-between align-items-center">
+          <div class="col-sm">
+            <p class="mb-2" style="font-size: x-large">
+              For your import requirements or in case of any further queries,
+              kindly email us at
+              <br />
+              <a
+                class="h2 font-monospace"
+                href="mailto:sales@leonachemicals.com"
+                >sales@leonachemicals.com</a
+              >
+              <br />or<br />
+              <a
+                class="h2 font-monospace"
+                href="mailto:leonachemicals@gmail.com"
+                >leonachemicals@gmail.com</a
+              >
+            </p>
+            <br />
+            <p class="mb-2" style="font-size: x-large">
+              or call us at
+              <br />
+              <a class="h2 font-monospace" href="tel:+91 9930336966">
+                +91 9930336966 </a
+              ><br />
+              <a class="h2 font-monospace" href="tel:+91 9137794481">
+                +91 9137794481
+              </a>
+            </p>
+            <br />
+            <p class="mb-2" style="font-size: x-large">
+              <span>Business Hours</span>: Monday to Saturday from 10 am to 6 pm
+            </p>
+          </div>
+          <div class="col-sm row justify-content-center">
+            <img src="images/Customer Support.svg" style="width: 400px" />
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Services-->
-    <section class="content-section bg-light text-center" id="careers">
+    <section class="content-section bg-light" id="careers">
       <div class="container px-4 px-lg-5">
         <div class="content-section-heading">
-            <h2 class="mb-5">Careers</h2>
+          <h2 class="mb-5">Careers</h2>
         </div>
         <div class="row justify-content-between align-items-center">
-          <div class='col-sm row justify-content-center'>
-            <lottie-player src="images/team_lottie.json" background="transparent" speed="1" style="width:auto;" loop autoplay></lottie-player>
+          <div class="col-sm">
+            <p class="h3">Want to work with us?</p>
+            <br />
+            <p style="font-size: x-large">
+              Looking for candidates with minimum 1 year experience in the field
+              and basic industry knowledge.
+              <br />Send us an email at
+              <a
+                class="a_dark h2 font-monospace"
+                style="font-size: xx-large"
+                href="mailto:leonachemicals@gmail.com"
+                >leonachemicals@gmail.com</a
+              >
+            </p>
           </div>
-          <div class="col-sm pt-5">
-            <p class="h3">
-              Want to work with us?
-            </p>
-            <p class="h5">
-              Looking for candidates with minimum 1 year experience in the field and basic industry knowledge.
-              <br>Send us an email at<br>
-              <a class="a_dark h2" href="mailto:leonachemicals@gmail.com">leonachemicals@gmail.com</a>
-            </p>
+          <div class="col-sm row justify-content-center">
+            <lottie-player
+              src="images/team_lottie.json"
+              background="transparent"
+              speed="1"
+              style="width: auto"
+              loop
+              autoplay
+            ></lottie-player>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Footer-->
-    <footer class="text-center bg-dark py-2">
-        <div class="container">
-          <p class="text-muted small mb-0">
-            <a target="_blank" href="https://goo.gl/maps/gsiyBxTXsumXPiax7">
-              <i class='fas fa-map-marker-alt'></i>
-              Mumbai, India.
-            </a>
-          </p>
-          <p class="text-muted small mb-0">Copyright &copy; 
-            <a href="https://leonachemicals.com/">
-              Leona Chemicals
-            </a> 2022
-          </p>        
-          <p class="text-muted small mb-0">Developed by 
-            <a  href="https://github.com/keane3pereira" target="_blank">Keane Pereira</a>
-          </p>
-        </div>
+    <footer class="text-center py-2">
+      <div class="container">
+        <p class="text-muted small mb-0">
+          <a target="_blank" href="https://goo.gl/maps/gsiyBxTXsumXPiax7">
+            <i class="fas fa-map-marker-alt"></i>
+            Mumbai, India.
+          </a>
+        </p>
+        <p class="text-muted small mb-0">
+          Copyright &copy;
+          <a href="https://leonachemicals.com/"> Leona Chemicals </a> 2024 |
+          Developed by
+          <a href="https://github.com/keane3pereira" target="_blank"
+            >Keane Pereira</a
+          >
+        </p>
+      </div>
     </footer>
 
     <!-- Scroll to Top Button-->
-    <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
-    
+    <a class="scroll-to-top rounded" href="#page-top"
+      ><i class="fas fa-angle-up"></i
+    ></a>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  
-    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="lib/jquery/jquery.min.js"></script>
     <script src="lib/jquery/jquery-migrate.min.js"></script>
     <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="lib/scripts.js"></script>
     <script src="lib/lottie-player.js"></script>
-
+    <script src="lib/products.js"></script>
   </body>
-
 </html>
