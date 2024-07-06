@@ -38,6 +38,10 @@
         background: rgba(53, 53, 53, 0.408);
       }
 
+      *{
+        transition: 200;
+      }
+
       ::selection {
         color: rgb(65, 58, 141);
         background: rgba(53, 53, 53, 0.408);
@@ -51,6 +55,7 @@
       a {
         text-decoration: none;
         color: rgb(110, 144, 218);
+        transition: 0.4s;
       }
       a:hover {
         color: #232323;
@@ -115,12 +120,12 @@
         <img
           class="animate__animated animate__pulse rounded-circle"
           src="images/logo.png"
-          style="height: 200px; width: auto"
+          style="height: 270px; width: auto"
         />
-        <h1 class="mb-1 p-3" style="font-family: algerian; font-weight: 500">
+        <h1 class="mb-1 p-3" style="font-family: algerian; font-weight: 500; user-select: none;">
           <span class="hoverEffect">Leona Chemicals</span>
         </h1>
-        <h4 class="mb-5 text-muted">
+        <h4 class="mb-5 text-muted" style="user-select: none;">
           <em>Indenting Company & Sourcing Agent</em>
         </h4>
         <a class="btn btn-primary btn-xl" href="#about">FIND OUT MORE</a>
