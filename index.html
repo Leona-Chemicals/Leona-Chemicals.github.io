@@ -38,7 +38,7 @@
         background: rgba(53, 53, 53, 0.408);
       }
 
-      *{
+      * {
         transition: 200;
       }
 
@@ -80,6 +80,16 @@
         font-size: larger;
         transition-duration: 400ms;
       }
+
+      .downBtn {
+        width: 20px;
+        height: 20px;
+      }
+
+      .downBtn:hover {
+        height: 30px;
+        width: 30px;
+      }
       @font-face {
         font-family: algerian;
         src: url(fonts/algerian.ttf);
@@ -96,7 +106,7 @@
     <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
     <nav id="sidebar-wrapper">
       <ul class="sidebar-nav">
-        <li class="sidebar-brand">
+        <li class="sidebar-nav-item">
           <a href="https://leonachemicals.com/">
             <img
               class="rounded-circle"
@@ -122,13 +132,16 @@
           src="images/logo.png"
           style="height: 270px; width: auto"
         />
-        <h1 class="mb-1 p-3" style="font-family: algerian; font-weight: 500; user-select: none;">
+        <h1
+          class="mb-1 p-3"
+          style="font-family: algerian; font-weight: 500; user-select: none"
+        >
           <span class="hoverEffect">Leona Chemicals</span>
         </h1>
         <h4 class="mb-5 text-muted" style="user-select: none;">
           <em>Indenting Company & Sourcing Agent</em>
         </h4>
-        <a class="btn btn-primary btn-xl" href="#about">FIND OUT MORE</a>
+        <a class="btn btn-primary btn-xl" href="#about">WHO WE ARE</a>
       </div>
     </header>
 
@@ -139,7 +152,7 @@
           <div class="content-section-heading">
             <h2 class="">About Us</h2>
           </div>
-          <div class="row justify-content-left p-3">
+          <div class="row justify-content-left">
             <div class="p-3 col-sm">
               <br />
               <p class="" style="font-size: x-large">
@@ -172,7 +185,7 @@
               />
             </div>
             <div>
-              <p style="font-size: x-large">
+              <p style="font-size: x-large; text-align: justify">
                 All products come from our
                 <b
                   >strong, reliable, technologically sound overseas
@@ -264,7 +277,7 @@
                 href="mailto:sales@leonachemicals.com"
                 >sales@leonachemicals.com</a
               >
-              <br />or<br />
+              <br />
               <a
                 class="h2 font-monospace"
                 href="mailto:leonachemicals@gmail.com"
@@ -340,11 +353,11 @@
         </p>
         <p class="text-muted small mb-0">
           Copyright &copy;
-          <a href="https://leonachemicals.com/"> Leona Chemicals </a> 2024 |
-          Developed by
+          <a href="https://leonachemicals.com/"> Leona Chemicals </a> 2024
+          <!-- Developed by
           <a href="https://github.com/keane3pereira" target="_blank"
             >Keane Pereira</a
-          >
+          > -->
         </p>
       </div>
     </footer>
